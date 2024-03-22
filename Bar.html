@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Bar.css">
+    <title>Circular Progress Bar</title>
+</head>
+
+<body>
+    <h1 class="heading">Circular <br> Progress <br> Bar <span id="loading">...</span></h1>
+    <div class="container">
+        <div class="outer">
+            <div class="inner">
+                <div id="number1">
+
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+
+        <h4 class="skill1">JavaScript</h4>
+    </div>
+    <div class="container">
+        <div class="outer">
+            <div class="inner">
+                <div id="number2">
+
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+                <linearGradient id="GradientColor">
+                    <stop offset="0%" stop-color="#e91e63" />
+                    <stop offset="100%" stop-color="#673ab7" />
+                </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+
+        <h4 class="skill2">HTML</h4>
+    </div>
+
+
+
+    <script src="/Bar.js"></script>
+</body>
+
+</html>
